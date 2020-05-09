@@ -41,10 +41,11 @@
 }
 .sub-menu{
     display: none;
-
-    left: -5px;
+    border: 0.5px solid grey;
+    left: 0px;
     top: 42px;
     position: absolute;
+    background-color:#292929;
 }
 .sub-menu .sub-list {
    list-style-type: none;
@@ -53,41 +54,51 @@
 
 .menu .list .item:hover .sub-menu{
     display: block;
-    background-color: black;
-    
-    
 }
 .sub-menu .sub-list .sub-item a{
     text-transform: none;
     background: none;
     font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .menu .list .item:hover .sub-item a{
     color:white;
 }
 .sub-list{
     padding-top: 5px;
-    padding-left: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    
+    
+   
 }
 .sub-list{
     display: inline-block;
 }
 .list .item:nth-child(2) .sub-menu{
-    width: 350px;
-    height: 100px;
+    width: 500px;
+    height: 200px;
 }
 .list .item:nth-child(3) .sub-menu{
-    width: 250px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
 }
 .list .item:nth-child(4) .sub-menu{
-    width: 280px;
-    height: 100px;
+    width: 450px;
+    height: 200px;
 }
 .list .item:nth-child(5) .sub-menu{
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
 }
-
+.sub-menu .sub-list .sub-item {
+    padding-top:12px;
+    padding-bottom:12px;
+    padding-right:25px;
+    padding-left:25px;
+}
+.sub-menu .sub-list{
+    margin: 0px;
+   
+}
+.sub-item:hover{
+    background-color: black;
+}
